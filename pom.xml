@@ -32,10 +32,22 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.11</version>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.google.guava</groupId>-->
+<!--			<artifactId>guava</artifactId>-->
+<!--&lt;!&ndash;			<version>31.1-jre</version>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash; or, for Android: &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<version>31.1-android</version>&ndash;&gt;-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
